@@ -14,11 +14,13 @@ npm install --save @brice0302/runtimeconfig
 
 ## Usage
 
+To use this you should format your config file as a JSON file, but give it a '.txt' file extension.
+
 Typescript:
 
 ```typescript
 import { runtimeConfig } from 'runtimeconfig';
-import myConfigPath from 'path/to/my/file';
+import myConfigPath from 'path/to/my/file.txt';
 
 type MyConfig = {
   myString: string;
@@ -38,7 +40,7 @@ Javascript:
 
 ```javascript
 const runtimeConfig = require('runtimeconfig').runtimeConfig;
-const myConfigPath = require('path/to/my/file');
+const myConfigPath = require('path/to/my/file.txt');
 
 const config = runtimeConfig(myConfigPath);
 
