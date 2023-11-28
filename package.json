@@ -3,5 +3,6 @@
     "version": "0.0.1",
     "description": "Loads a runtime file and exposes it as a config object",
     "license": "CDDL-1.1",
-    "author": "Brice Riemenschneider <brice.riemenschneider@gmail.com>"
+    "author": "Brice Riemenschneider <brice.riemenschneider@gmail.com>",
+    "repository": "https://github.com/briemenschneider/RuntimeConfig"
 }
