@@ -1,8 +1,11 @@
 {
-    "name": "RuntimeConfig",
+    "name": "runtimeconfig",
     "version": "0.0.1",
     "description": "Loads a runtime file and exposes it as a config object",
     "license": "CDDL-1.1",
     "author": "Brice Riemenschneider <brice.riemenschneider@gmail.com>",
-    "repository": "https://github.com/briemenschneider/RuntimeConfig"
+    "repository": "https://github.com/briemenschneider/RuntimeConfig",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
