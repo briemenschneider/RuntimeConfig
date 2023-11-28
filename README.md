@@ -9,7 +9,7 @@ The use case for this library is to allow you to define config files in differen
 ## Installation
 
 ```bash
-npm install --save runtimeconfig
+npm install --save @brice0302/runtimeconfig
 ```
 
 ## Usage
