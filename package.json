@@ -1,6 +1,6 @@
 {
     "name": "@brice0302/runtimeconfig",
-    "version": "0.0.2-beta",
+    "version": "0.0.3-beta",
     "description": "Loads a runtime file and exposes it as a config object",
     "license": "CDDL-1.1",
     "author": "Brice Riemenschneider <brice.riemenschneider@gmail.com>",

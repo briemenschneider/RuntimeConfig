@@ -18,6 +18,7 @@ Typescript:
 
 ```typescript
 import { runtimeConfig } from 'runtimeconfig';
+import myConfigPath from 'path/to/my/file';
 
 type MyConfig = {
   myString: string;
@@ -28,7 +29,7 @@ type MyConfig = {
   };
 };
 
-const config = runtimeConfig<MyConfig>('path/to/my/file', 'my-config.json');
+const config = runtimeConfig<MyConfig>(myConfigPath);
 
 console.log(config.myString);
 ```
@@ -37,8 +38,9 @@ Javascript:
 
 ```javascript
 const runtimeConfig = require('runtimeconfig').runtimeConfig;
+const myConfigPath = require('path/to/my/file');
 
-const config = runtimeConfig('path/to/my/file', 'my-config.json');
+const config = runtimeConfig(myConfigPath);
 
 console.log(config.myString);
 ```
