@@ -1,0 +1,7 @@
+{
+    "name": "RuntimeConfig",
+    "version": "1.0.0",
+    "description": "Loads a runtime file and exposes it as a config object",
+    "license": "CDDL-1.1",
+    "author": "Brice Riemenschneider <brice.riemenschneider@gmail.com>"
+}
